@@ -1,0 +1,226 @@
+html {
+  background-image: url("https://www.teahub.io/photos/full/50-500284_apple-basket-wallpaper-fruits-basket-hd-backgrounds.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+body {
+    font-family:Georgia;
+    background-repeat: center, center; 
+    background-position: top; 
+    background-size: cover;
+    background-color: rgb(25, 48, 77);
+    max-width: 800px;
+    padding: 20px;
+    display: block;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    
+  }
+  h1, h2, p, ul, li {
+    font-family: sans-serif;
+    display: flex-align;
+  }
+  ul.header li {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #111;
+    padding: 0;
+  }
+  ul.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+  }
+  .content {
+    background-color: #FFF;
+    padding: 20px;
+  }
+  .content h2 {
+    padding: 0;
+    margin: 0;
+  }
+  .content li {
+    margin-bottom: 10px;
+  }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui.inverted.segment {
+  border-radius: 25px;
+  Background-color: white;
+  
+}
+
+.dropdown {
+  font-size: 14px;
+  color: grey;
+  background-color: white;
+}
+
+  .row {
+    display: flex;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin: auto;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.leftcolumn {
+  justify-content: flex-start;
+  flex: 1;
+  display: block;
+  width: 100%;
+}
+
+.centercolumn {
+  flex: 1;
+  max-width: 700px;
+}
+
+.centercolumn2 {
+  flex: 1;
+  max-width: 400px;
+  justify-content: center;
+
+}
+
+
+.rightcolumn {
+  justify-content: flex-end;
+  flex: 1;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.FitnessDescription {
+  max-width: 205px;
+  width: 100%;
+}
+
+.FitnessDescription2 {
+  max-width: 180px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: center;
+  color:#494949; 
+  background-color:#FFFFFF;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 15px 10px 15px 10px;
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  max-width: 200px;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  max-width: 175px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+img {
+  max-width:100px;
+
+  float: right;
+  vertical-align: middle;
+  
+}
+
+.content2 {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  row-gap: 75px;
+}
+
+.content3 {
+background-color: transparent;
+padding: 20px; 
+display: block;
+justify-content: center;
+}
+
+.newsdiv {
+  display: block;
+}
+
+@media only screen and (min-width: 800px) {
+  .newsdiv {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 75px;
+  }
+
+  .content2 {
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    row-gap: 75px;
+  }
+
+  .content3 {
+    background-color: rgba(255, 255, 255, 0.185);
+    display: block;
+    max-width: 500px;
+    padding: 30px;
+    
+  }
+
+}
+
+.header2{padding:2px 0 20px 0;}
+.header2 .fl_left{display:block; float:left; margin-top:7px; overflow:hidden;}
+.header2 .fl_right{display:block; float:right; width:468px; height:60px; margin-top:21px; overflow:hidden;}
+.header2 h1, #header2 p, #header2 ul{  border-radius: 25px; background-color: white; text-align: center; justify-content: center; margin:0; padding:0; list-style:none; line-height:normal;}
+.header2 h1 a{font-size:46px; color:#999999;}
+.header2 h1 strong{font-weight:normal; color:#059BD8;}
+.header2 .fl_left p{text-align:right; margin-top:5px;}
+
+/* ----------------------------------------------TopBar------------------------------------- */
+
+.topline{padding:10px 0; color:#FFFFFF; background-color:#666666;}
+.topline p{float:left; margin:0; padding:0;}
+.topline ul{float:right; margin:0; padding:0; list-style:none;}
+.topline li{display:inline; margin:0 8px 0 0; padding:0 10px 0 0; border-right:1px solid #999999;}
+.topline li.last{margin-right:0; padding-right:0; border:none;}
+
+/* ----------------------------------------------Wrapper------------------------------------- */
+
+div.wrapper{display:block; width:100%; margin:0; text-align:left; border-bottom:1px solid #E3E3E3;}
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{margin:0 0 15px 0; padding:0; font-size:20px; font-weight:normal; line-height:normal;}
+.col0, .col0 a{color:#FFFFFF; background-color:#666666;}
+.col2{color:#FFFFFF; background-color:#F6F6F6;}
