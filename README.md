@@ -1,1 +1,1 @@
-H
+This repository is currently the frontend design and React components of a fullstack app project. Currently the Java Spring backend is being build before packaging both together through my VM Linux server with Tomcat 10. 
